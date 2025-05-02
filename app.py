@@ -9,7 +9,7 @@ from langchain_openai import OpenAIEmbeddings
 # Configurar clave desde secrets
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 client = OpenAI()
-ASSISTANT_ID = "asst_xxxxxxxxxxxxxx"  # ← Reemplaza por tu ID real
+ASSISTANT_ID = "asst_Ht8bf15YVOoQizUPNbifiHf5"  # ← Reemplaza por tu ID real
 
 # Cargar base vectorial
 vectordb = Chroma(
