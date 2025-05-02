@@ -6,9 +6,9 @@ from langchain_community.vectorstores import Chroma
 from langchain_openai import OpenAIEmbeddings
 
 # === CONFIGURACIÓN DE API KEY ===
-openai_key = os.environ.get("OPENAI_API_KEY") or st.secrets.get("OPENAI_API_KEY")
+openai_key = os.environ.get("OPENAI_API_KEY")
 if not openai_key:
-    raise ValueError("No se encontró la API key de OpenAI")
+    raise ValueError("OPENAI_API_KEY no encontrada en variables de entorno")
 os.environ["OPENAI_API_KEY"] = openai_key
 
 # === CONFIGURACIÓN DE ASSISTANT ID ===
