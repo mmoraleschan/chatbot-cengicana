@@ -32,7 +32,7 @@ st.set_page_config(page_title="Chatbot CENGICAÑA", layout="wide")
 # Encabezado con logo y título
 col1, col2 = st.columns([1, 6])
 with col1:
-    show_logo("Logo Cengicaña.png", width=120)
+    show_logo("logo_cengicana.png", width=120)
 with col2:
     st.markdown("<h1 style='color:#3B6C26; margin-top: 15px;'>Asistente Técnico CENGICAÑA</h1>", unsafe_allow_html=True)
     st.markdown("Consulta técnica sobre variedades, rendimiento y zafras. Prototipo basado en IA.")
