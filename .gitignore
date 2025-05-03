@@ -1,1 +1,42 @@
 .streamlit/secrets.toml
+# Entorno virtual
+env/
+.venv/
+venv/
+ENV/
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Archivos y bases de datos generadas localmente
+*.sqlite3
+*.bin
+*.db
+*.pkl
+
+# Archivos de configuración de sistema
+.DS_Store
+Thumbs.db
+
+# Configuración de editores
+.vscode/
+.idea/
+
+# Datos del proyecto no necesarios en Git
+docs/
+chunks/
+vectores/
+procesamiento/
+*.pdf
+*.xlsx
+
+# Render - variables sensibles se cargan como Environment Variables
+.env
