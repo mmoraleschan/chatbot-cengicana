@@ -1,4 +1,5 @@
-.streamlit/secrets.toml
+X
+XXX.streamlit/secrets.toml
 # Entorno virtual
 env/
 .venv/
