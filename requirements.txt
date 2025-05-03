@@ -1,8 +1,12 @@
 streamlit
-langchain
 openai
+langchain
+langchain_community
 chromadb
-langchain-community
-langchain-openai
+unstructured[local-inference]
+pdfminer.six
+pytesseract
+pillow
+
 
 
